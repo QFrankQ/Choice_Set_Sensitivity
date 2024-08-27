@@ -215,3 +215,5 @@ if __name__ == "__main__":
     result_path = os.path.join("annotation", "_annotated.json")
     with open(result_path, "w") as f:
         json.dump([{k: v for k, v in data.items()} for data in dataset_dict], f, indent=4)
+    #
+    

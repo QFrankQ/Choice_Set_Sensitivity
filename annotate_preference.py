@@ -13,7 +13,7 @@ from tqdm import tqdm
 MAX_API_RETRY=10
 from openai import OpenAI
 client = OpenAI()
-api_key = "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"
+api_key = "Your API Key"
 
 
 def process(responses, aspect):
